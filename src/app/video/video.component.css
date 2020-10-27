@@ -4,14 +4,14 @@
     height: 48.8rem;
     flex-direction: column;
     overflow: hidden;
-    background-image: url("assets/images/video2.png");
+    background-image: url("/assets/images/video2.png");
     background-size: contain;
 }
 
 
 @media only screen and (min-width:1280px) {
     .video-container{
-        background-image: url("assets/images/video1.png");
+        background-image: url("/assets/images/video1.png");
     background-size: contain;
     width: 100vw;
     height: 18.1rem;

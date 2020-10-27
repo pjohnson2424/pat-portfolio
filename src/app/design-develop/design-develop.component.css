@@ -5,14 +5,14 @@
     flex-direction: column;
     background-color:rgb(255, 255, 255);
     overflow: hidden;
-    background-image: url("assets/images/design2.png");
+    background-image: url("/assets/images/design2.png");
     background-size: contain;
 }
 
 
 @media only screen and (min-width:1280px) {
     .design-container{
-        background-image: url("assets/images/design1.png");
+    background-image: url("/assets/images/design1.png");
     background-size: contain;
     width: 100vw;
     height: 18.25rem;
