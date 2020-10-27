@@ -1,0 +1,203 @@
+.navContainer {
+    display: flex;
+    width:100vw;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: white;
+
+  }
+
+.logo-link{
+    width:20%;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 6vw;
+    color:rgb(0, 0, 0);
+    margin: 8vw 0 0 6vw;
+   
+}
+.logo-link:hover{
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+.imgMe{
+width: 28vw;
+height: 50vw;
+margin: 2vw 0 0 28vw;
+max-width: 100%;
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes pop{
+    50%  {transform: scale(1.2);}
+  }
+.imgMe:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.myTitle{
+    position: absolute;
+    width: 36%;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 3vw;
+   margin: 34vw 0 0 58vw;
+   color:rgb(0, 0, 0);
+}
+
+.myStoryLink{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    margin:25vw 0 0 8vw;
+    color:rgb(0, 0, 0);
+}
+.contactLink{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    margin: 25vw 0 0 24vw;
+    color:rgb(0, 0, 0);
+}
+.contactLink:hover, .myStoryLink:hover{
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+.line1{
+    position: absolute;
+    width: 6vw;
+    margin: 20vw 0 0 10vw;
+}
+
+
+@media only screen and (min-width:1000px) {
+    .imgMe{
+       width: 26vw;
+        height: 44vw;
+    }
+    .logo-link{
+        font-size: 6.5vw;
+        margin: 1.5vw 0 0 5vw;
+    }
+    .myStoryLink{
+        font-size: 2vw;
+        margin:16vw 0 0 10vw;
+    }
+    .contactLink{
+        font-size: 2vw;
+    margin: 16vw 0 0 26vw;
+    }
+    .myTitle{
+        width: 45%;
+        font-size: 3.5vw;
+        margin: 26vw 0 0 54vw;
+    }
+    }
+    @media only screen and (min-width:1280px) {
+        .imgMe{
+            width: 14vw;
+            height: 26vw;
+        }
+        .logo-link{
+            font-size: 4vw;
+            margin: 1vw 0 0 13vw;
+        }
+        .myStoryLink{
+            font-size: 1vw;
+            margin:9vw 0 0 23vw;
+        }
+        .contactLink{
+            font-size: 1vw;
+        margin: 9vw 0 0 32vw;
+        }
+        .myTitle{
+            width: 24%;
+            font-size: 2vw;
+            margin: 16vw 0 0 60vw;
+        }
+        }

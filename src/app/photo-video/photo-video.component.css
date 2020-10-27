@@ -1,0 +1,21 @@
+.photo-container{  
+    display: flex;
+    width: 100vw;
+    height: 48.9rem;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url("/assets/images/photo2.png");
+    background-size: contain;
+}
+
+
+@media only screen and (min-width:1280px) {
+    .photo-container{
+        background-image: url("/assets/images/photo1.png");
+    background-size: contain;
+    width: 100vw;
+    height: 18.2rem;
+    overflow: hidden;
+    }
+   
+}

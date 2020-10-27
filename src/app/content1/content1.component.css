@@ -1,0 +1,60 @@
+
+.card-containers{
+    margin-bottom: 5rem;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    background-color:  rgb(255, 255, 255);;
+    justify-content: center;
+    background-image: linear-gradient(rgb(0, 65, 54), rgb(255, 255, 255));
+}
+ .design, .develop, .photo, .video{
+    width:32vw;
+    height: 32vw;
+    margin: 2vw 3vw 2vw 3vw;
+    box-shadow: 0 8px 6px -6px rgb(41, 41, 41);
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.design, .develop{
+    margin-top: 10vw;
+}
+
+.design:hover, .develop:hover{
+    transform: scale(1.1) rotate(4deg);
+}
+.photo:hover, .video:hover{
+    transform: scale(1.1) rotate(-4deg); 
+}
+
+@media only screen and (min-width:600px) {
+    .card-containers{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .design, .develop, .photo, .video{
+        width:32vw;
+        margin: 6vw 6vw 2vw 6vw;
+       height: 32vw;
+       
+    }
+}
+@media only screen and (min-width:1025px) {
+  
+    .design, .develop, .photo, .video{
+        width:16vw;
+        height: 16vw;
+        margin: 6vw 3vw 6vw 3vw;
+    }
+    .card-containers{
+        width:100vw;
+        height:auto;
+        margin: 0;
+    }
+
+}
