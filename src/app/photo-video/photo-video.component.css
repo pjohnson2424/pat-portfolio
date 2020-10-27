@@ -4,14 +4,14 @@
     height: 48.9rem;
     flex-direction: column;
     overflow: hidden;
-    background-image: url("../images/photo2.png");
+    background-image: url("./images/photo2.png");
     background-size: contain;
 }
 
 
 @media only screen and (min-width:1280px) {
     .photo-container{
-        background-image: url("../images/photo1.png");
+        background-image: url("./images/photo1.png");
     background-size: contain;
     width: 100vw;
     height: 18.2rem;

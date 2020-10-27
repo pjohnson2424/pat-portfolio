@@ -4,7 +4,7 @@
     height: 48.8rem;
     flex-direction: column;
     overflow: hidden;
-    background-image: url("./assets/images/contact2.png");
+    background-image: url("./images/contact2.png");
     background-size: contain;
 }
 
