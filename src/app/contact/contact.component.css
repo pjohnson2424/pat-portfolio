@@ -4,18 +4,28 @@
     height: 48.8rem;
     flex-direction: column;
     overflow: hidden;
-    background-image: url("./assets/images/contact2.png");
     background-size: contain;
 }
 
+.contact1{
+    display: none;
+}
+.contact2{
+    width:100vw;
+}
 
 @media only screen and (min-width:1280px) {
     .contact-container{
-        background-image: url("./assets/images/contact1.png");
     background-size: contain;
     width: 100vw;
     height: 18.1rem;
     overflow: hidden;
     }
-   
+   .contact1{
+       display: block;
+       width:100vw;
+   }
+   .contact2{
+       display: none;
+   }
 }

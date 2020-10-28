@@ -4,19 +4,28 @@
     height: 48.8rem;
     flex-direction: column;
     background-color:rgb(211, 211, 211);
-    overflow: hidden;
-    background-image: url("./assets/images/develop2.png");
+    overflow: hidden;  
     background-size: contain;
 }
-
-
+.development1{
+    display: none;
+}
+.development2{
+    width:100vw;
+}
 @media only screen and (min-width:1280px) {
     .development-container{
-        background-image: url("./assets/images/develop1.png");
     background-size: contain;
     width: 100vw;
     height: 18.25rem;
     overflow: hidden;
     }
-   
+
+   .development1{
+     display: block; 
+       width:100vw;
+   }
+   .development2{
+       display: none;
+   }
 }

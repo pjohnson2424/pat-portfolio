@@ -4,16 +4,26 @@
     height: 48.8rem;
     flex-direction: column;
     overflow: hidden;
-    background-image: url("./assets/images/story2.png");
     background-size: contain;
 }
 
-
+.story1{
+    display: none;
+}
+.story2{
+    width:100vw;
+}
 @media only screen and (min-width:1280px) {
     .story-content{
-        background-image: url("./assets/images/story1.png");
     background-size: contain;
     height: 18rem;
     }
-   
+   .story1{
+       width:100vw;
+       display: block;
+   }
+   .story2{
+       display:none;
+    }
+
 }
